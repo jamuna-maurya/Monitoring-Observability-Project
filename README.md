@@ -10,35 +10,9 @@ The project simulates a real-world production monitoring environment commonly us
 
 ## Architecture
 
-```text
-                    ┌──────────────┐
-                    │ Node.js App  │
-                    │  /metrics    │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │ Prometheus   │
-                    └──────┬───────┘
-                           │
-          ┌────────────────┴──────────────┐
-          ▼                               ▼
 
- ┌─────────────┐                 ┌──────────────┐
- │ Alertmanager│                 │ Grafana      │
- └─────────────┘                 └──────────────┘
+<img width="1461" height="1076" alt="image" src="https://github.com/user-attachments/assets/8a207bc1-1c8a-4e10-831e-66c82994ca7c" />
 
-          ▲
-          │
-
- ┌─────────────────┐
- │ Node Exporter   │
- └─────────────────┘
-
- ┌─────────────────┐
- │ cAdvisor        │
- └─────────────────┘
-```
 
 ---
 
