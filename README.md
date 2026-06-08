@@ -283,9 +283,6 @@ Add screenshot here
 
 ### Prometheus Targets
 
-<img width="2876" height="1236" alt="image" src="https://github.com/user-attachments/assets/2a1fb5a8-8875-4440-9a1c-3a73f2a23e46" />
-
-
 ### Prometheus Alerts
 
 <img width="2876" height="1236" alt="image" src="https://github.com/user-attachments/assets/b389668e-b2c8-4027-9828-2e59e699e5cc" />
@@ -298,7 +295,8 @@ Add screenshot here
 
 <img width="2008" height="1462" alt="image" src="https://github.com/user-attachments/assets/f1a0820c-08ef-46e4-9ac1-7dde5fb86cdc" />
 
-<img width="2876" height="1236" alt="image" src="https://github.com/user-attachments/assets/9320c5d4-fc1a-4882-84cf-16918c8cfba9" />
+<img width="2740" height="1278" alt="image" src="https://github.com/user-attachments/assets/62c62e2f-17eb-49e9-9404-cbdba94b008d" />
+
 
 
 ### Alertmanager Dashboard
