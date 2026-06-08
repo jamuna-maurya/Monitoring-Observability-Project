@@ -1,0 +1,24 @@
+groups:
+  - name: MonitoringAlerts
+
+    rules:
+
+      - alert: AppDown
+        expr: up{job="node-app"} == 0
+        for: 1m
+
+        labels:
+          severity: critical
+
+        annotations:
+          summary: Application Down
+
+      - alert: HighErrorRate
+        expr: increase(http_errors_total[1m]) > 5
+        for: 30s
+
+        labels:
+          severity: warning
+
+        annotations:
+          summary: High Error Rate
